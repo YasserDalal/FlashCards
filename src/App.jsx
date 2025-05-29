@@ -24,17 +24,18 @@ export default function App() {
       return () => clearTimeout(timeout);
     }
   }, [smooth]);
-
+  // for change the color of the buttons of 'previous' and 'next'
   useEffect(() => {
     if (counter === 0) {
       setColorPrev(true)
       setColorNext(false)
     } 
-    if(counter > 0) {
-      setColorPrev(false)
-    }
     if(counter === questionsAndAnswers.length - 1) {
       setColorNext(true)
+      setColorPrev(false)
+    }
+    if (counter > 0 && counter < questionsAndAnswers.length - 1) {
+      setColorNext(false)
       setColorPrev(false)
     }
   }, [counter]);
