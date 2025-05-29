@@ -2,7 +2,7 @@
 export default function ButtonContainer(){
   return (
     <div className="h-[10%]">
-      <div className="flex justify-between items-center h-full">
+      <div className="flex rounded-lg justify-between items-center bg-slate-600 h-full px-3">
         <div className="flex">
           <div className="mr-2">&lt;</div>
           <div>Previous</div>
