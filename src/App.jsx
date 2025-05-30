@@ -15,6 +15,8 @@ export default function App() {
   const [smooth, setSmooth] = useState(360)
   const [colorPrev, setColorPrev] = useState(false)
   const [colorNext, setColorNext] = useState(false)
+  const [progress, setProgress] = useState(20)
+  const [itemOrder, setItemOrder] = useState(1)
   // for transitioning hide and show for answers
   useEffect(() => {
     if (smooth === 0) {
@@ -45,7 +47,8 @@ export default function App() {
                   nextButton={nextButton} setNext={setNext} next={next}
                   previousButton={previousButton} setCounter={setCounter} counter={counter}
                   showAnswer={showAnswer} setShowAnswer={setShowAnswer} smooth={smooth} setSmooth={setSmooth}
-                  showAndHideButton={showAndHideButton} colorPrev={colorPrev} setColorPrev={setColorPrev} colorNext={colorNext}/>
+                  showAndHideButton={showAndHideButton} colorPrev={colorPrev} setColorPrev={setColorPrev} colorNext={colorNext}
+                  progress={progress} setProgress={setProgress} itemOrder={itemOrder} setItemOrder={setItemOrder}/>
     </div>
   )
 }
