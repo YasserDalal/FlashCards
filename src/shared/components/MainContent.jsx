@@ -2,7 +2,8 @@
 export default function MainContent({ questionsAndAnswers, next, smooth, showAnswer }) {
   return (
     <div className="h-[88%] max-w-[592px] min-w-[200px] w-full mb-2 overflow-hidden relative">
-      <div className="h-full flex w-[300%] transition-transform duration-300 gap-[2px]" style={{ transform: `translateX(-${next}%)` }}>
+      <div className="h-full flex transition-transform duration-300 gap-[2px]" style={{ transform: `translateX(-${next}%)`,
+    width: `${questionsAndAnswers.length}00%` }}>
         {questionsAndAnswers.map((item, index) => (
           <div className="w-full flex rounded-lg justify-center items-center bg-slate-600 relative" key={index}>
             <h2>{item.question}</h2>
