@@ -1,35 +1,35 @@
 
 export const questionsAndAnswers = [
   {
-    question: "What is the difference between var, let, and const",
-    answer: "In Javascript, var is function-scoped and can be re-declared; let and const are block-scoped, with let allowing re-assigment and const preventing it, However, const objects can have their contents modified."
+    question: "Does Yasser have a dog?",
+    answer: "Yes and his name is Chooey"
   },
   {
-    question: "What is the capital of Italy?",
-    answer: "Rome"
+    question: "What Yasser's favorite color?",
+    answer: "Violet | Purple"
   },
   {
-    question: "What is the capital of Spain?",
-    answer: "Madrid"
+    question: "Does Yasser like to play video games?",
+    answer: "Yes, specially Soulsborne games from the FromSoftware series"
   },
   {
-    question: "What is the capital of Portugal?",
-    answer: "Lisbon"
+    question: "What is Yasser's favorite food?",
+    answer: "Bicol Express | Pork Binagoongan"
   },
   {
-    question: "What is the capital of Greece?",
-    answer: "Athens"
+    question: "Outside Programming, what other hobbies does Yasser have?",
+    answer: "Watching Anime | Play video games | walking outside (only when the weather is cold)"
   },
   {
-    question: "What is the capital of France?",
-    answer: "Paris"
+    question: "Where Yasser is from?",
+    answer: "He's from the Philippines, but relocated to Bahrain"
   },
   {
-    question: "What is the capital of Germany?",
-    answer: "Berlin"
+    question: "What languages does Yasser speak?",
+    answer: "English | Filipino"
   },
   {
-    question: "What is the capital of Switzerland?",
-    answer: "Bern"
+    question: "Who is Yasser's favorite artists?",
+    answer: "Aimer | Milet | Yorushika | Sennarin | Reona (everything about JPOP)"
   }
 ]
