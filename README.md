@@ -17,10 +17,11 @@ This app is **responsive** to smaller devices
 **Hooks** will enable us to program dynamically, using *useState* | *useEffect* | *useRef* etc.
 
 ## This is the technology I used for this project
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="40">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40"/>
+<p align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="40">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40"/>
+</p>
 
 &nbsp;
 
